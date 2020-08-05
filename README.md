@@ -11,6 +11,7 @@ Ejemplo de website con Bootstrapt, Sass y otras tecnologías
 Se ha usado:
 * [Gulp](https://gulpjs.com/): Para automatizar tareas.
 * [FontAwasome](https://fontawesome.com/v4.7.0/icons/): Fuentes e iconos.
+* [Google Fonts](https://fonts.google.com/): Fuentes para texto
 * [BrwoserSync](https://www.browsersync.io/): Servidor para ir viendo y visualizando los cambios automatizados.
 * [bootstrap4-color-generator](https://lingtalfi.com/bootstrap4-color-generator): Crear temas de Bootstrapt 4.
 
