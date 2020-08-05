@@ -372,6 +372,20 @@
     <script src="js/jquery.min.js" charset="utf-8"></script>
     <script src="js/popper.min.js" charset="utf-8"></script>
     <script src="js/bootstrap.min.js" charset="utf-8"></script>
+
+    <!-- TRANSICIONES -->
+    <script>
+        // codigo de jQuery
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+    </script>
 </body>
 
 </html>

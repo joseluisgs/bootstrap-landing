@@ -8,7 +8,11 @@ body {
 .navbar {
     box-shadow: 2px 2px 5px gray;
     opacity: 95%; //90%
-    
+    // Marca
+    .navbar-brand {
+        font-size: 20px;
+        font-weight: bold;
+    }
     // Cada item del menú
     .nav-item .nav-link {
         color: gainsboro;
