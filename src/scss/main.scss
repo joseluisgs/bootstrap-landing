@@ -1,7 +1,7 @@
 // Genericos
 body {
   font-family: 'Roboto', sans-serif; // Letra por defecto
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 // Navbar
@@ -41,4 +41,9 @@ body {
 // Card de caracteristicas
 .card-caracteristicas {
     height: 100%;
+}
+
+// Equipo
+.equipo {
+  background: #30336b;
 }
