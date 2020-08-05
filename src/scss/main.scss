@@ -3,3 +3,14 @@ body {
   font-family: 'Roboto', sans-serif; // Letra por defecto
   background-color: whitesmoke;
 }
+
+// Navbar
+.navbar {
+    box-shadow: 2px 2px 5px gray;
+    opacity: 0.9; //90%
+    
+    // Cada item del menú
+    .nav-item .nav-link {
+        color: gainsboro;
+    }
+}
