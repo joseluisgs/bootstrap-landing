@@ -7,7 +7,7 @@ body {
 // Navbar
 .navbar {
     box-shadow: 2px 2px 5px gray;
-    opacity: 0.9; //90%
+    opacity: 95%; //90%
     
     // Cada item del menú
     .nav-item .nav-link {
@@ -44,6 +44,6 @@ body {
 }
 
 // Equipo
-.equipo {
+.equipo, footer {
   background: #30336b;
 }
